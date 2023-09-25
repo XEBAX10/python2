@@ -15,8 +15,6 @@ def dame_pi():return 3.14159
   #x = suma(num_1,num_2)
   #print("the value of suma is: {}".format(x))
 
-devolver=dame_pi()
-print(devolver)
 
 
 
