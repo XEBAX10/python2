@@ -1,0 +1,12 @@
+titulo=input("diguite titulo de la pelicula:  ")
+origen=input("digite pais de origen:  ")
+genero=input("digite el genero:  ")
+duracion=input("digite la duracion:  ")
+año=input("digite año de estreno:  ")
+
+print("DATOS DE LA PELICULA")
+print("TITULO: "+titulo)
+print("PAIS DE ORIGEN: "+origen)
+print("GENERO: "+genero)
+print("DURACION: "+duracion)
+print("AÑO DE ESTRENO: "+año)
