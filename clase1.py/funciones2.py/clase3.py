@@ -1,13 +1,13 @@
 #funcions 2 
 def identification(name, gender ):
     print("Hi,{}".format(name))
-    if gender="M" or gender== "m":
+    if (gender=="M" or gender== "m"):
        print("confirmado, eres genero masculino")
        
-    elif gender == "F" or gender== "f"
+    elif (gender == "F" or gender== "f"):
        print("confirmado eres genero femenino")
     
-    elif gender == "NB" 
+    elif gender == "NB":
        print("confirmado eres genero no binario")
 
     else:
