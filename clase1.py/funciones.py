@@ -1,19 +1,17 @@
-#funciones
-def message():#se genera una funcion llamada mensaje 
-    print("HI WORLDS!")
-
-def suma(a,b):return a + b 
+def suma(num):
+    print(num, end = "+")
+    if num == 1:
+       return 1 + "="
+    else:
+       return num + suma (num -1)
+def factorial (num):
+   if num == 1:
+      return 1 
+   else:
+      return num * factorial (num -1 )
     
-def dame_pi():return 3.14159
-  
-    
- if __name__=='__main__'
-#entry point for inicialization our programs   
-## print(suma(1,2))
-  #um_1= int(input("enter a number one: "))
-  #num_2= int(input("enter a number two: "))
-  #x = suma(num_1,num_2)
-  #print("the value of suma is: {}".format(x))
+if __name__=='__main__':
+  print(suma(10))
 
 
 
